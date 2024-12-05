@@ -44,7 +44,7 @@ module.exports = {
     Which one you use is ultimately up to you.
   */
   serveFilesWithNode: false,
-  domain: null,
+  domain: loli.evilduckz.net,
 
   /*
     If you serve files with node, you can optionally choose to set Content-Disposition header
