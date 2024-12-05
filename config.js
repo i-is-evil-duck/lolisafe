@@ -140,7 +140,7 @@ module.exports = {
   extensionsFilterMode: 'blacklist',
 
   extensionsFilter: [
-    '.bash_profile',
+/*    '.bash_profile',
     '.bash',
     '.bashrc',
     '.bat',
@@ -157,7 +157,7 @@ module.exports = {
     '.ps1',
     '.psm1',
     '.scr',
-    '.sh'
+    '.sh' */
   ],
 
   /*
@@ -516,7 +516,7 @@ module.exports = {
       // Untested options (may work): scanLog
       // Supported options: debugMode, clamscan, clamdscan, preference
       clamOptions: {
-        debugMode: false,
+        debugMode: true,
         clamscan: {
           path: '/usr/bin/clamscan',
           db: null,
