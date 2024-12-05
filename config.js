@@ -43,7 +43,7 @@ module.exports = {
     Both cases require you to type the domain where the files will be served on the `domain` key below.
     Which one you use is ultimately up to you.
   */
-  serveFilesWithNode: false,
+  serveFilesWithNode: true,
   domain: loli.evilduckz.net,
 
   /*
